@@ -1,0 +1,143 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+/* body{
+    background: rgb(255, 255, 255);
+} */
+:root {
+    --color-primary: #E90024;
+}
+h1,h2,h3,h4 {
+    font-weight: 600;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #787878;
+}
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 20px;
+}
+.m-tb-150{
+    margin: 150px 0;
+}
+.section-header{
+    margin-bottom: 60px;
+}
+
+/* navbar start  */
+.navbar {
+    padding-top: 20px;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-nav {
+    gap: 60px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--color-primary);
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--color-primary);
+}
+.nav-btn-signup {
+    padding: 16px 42px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.search-frame {
+    gap: 24px;
+}
+.search-frame img {
+    height: 24px;
+    width: 24px;
+}
+/* navbar end  */
+
+
+
+/* banar part start  */
+#banar-part{
+    margin-top: 100px;
+}
+.instagram {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.banar-left {
+    margin-top: 144px;
+}
+/* banar part end  */
+
+/* cunter part  */
+.cunter {
+    padding: 95px 117px;
+    background-color: #F4F4F4;
+    border-radius: 30px;
+}
+.vactor-img.position-absolute {
+    top: 234px;
+    left: -39px;
+    z-index: -1;
+}
+
+
+/* insta word  */
+.insta-content{
+    padding: 85px 60px;
+    height: 460px;
+    width: 424px;
+    border-radius: 30px;
+    box-shadow: 0 15px 50px #0000001b;
+}
+.insta-content h3{
+    padding: 42px 0 30px 0;
+}
+
+/* video bg  */
+.video-bg{
+    background-image: url(../image/Rectangle\ 29\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 260px 570px;
+    border-radius: 30px;
+}
+.playbtn{
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.215);
+    animation: animate-pulse 3s linear infinite;
+    cursor: progress;
+}
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 #fe4e4ebd,  0 0 0 0 #fd6060bd;
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 0 #ff7b7bbf;
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+    }
+    
+}
