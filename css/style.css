@@ -25,6 +25,9 @@ h3 {
 h4 {
     font-size: 20px;
 }
+li{
+    list-style: none;
+}
 .m-tb-150{
     margin: 150px 0;
 }
@@ -140,4 +143,27 @@ h4 {
         box-shadow: 0 0 0 0 rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
     }
     
+}
+
+/* pump insta  */
+#pump-insta{
+    padding: 150px 0;
+    background-color: #DDDEDD;
+}
+#pump-insta .insta-content{
+    padding: 66px 50px;
+}
+
+
+/* parces  */
+.parces-content{
+    padding: 65px 90px;
+    box-shadow: 0 15px 50px #0000001b;
+    border-radius: 30px;
+}
+.parces-content h4{
+    padding: 11px 65px;
+    background-color: #FDE5E9;
+    color: red;
+    text-align: center;
 }
