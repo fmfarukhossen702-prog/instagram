@@ -25,6 +25,9 @@ h3 {
 h4 {
     font-size: 20px;
 }
+ul{
+    padding-left: 0;
+}
 li{
     list-style: none;
 }
@@ -153,17 +156,77 @@ li{
 #pump-insta .insta-content{
     padding: 66px 50px;
 }
+.pump-vactor {
+    top: -55px;
+    right: 232px;
+    z-index: -1;
+}
 
 
 /* parces  */
 .parces-content{
-    padding: 65px 90px;
+    padding: 65px 75px;
     box-shadow: 0 15px 50px #0000001b;
     border-radius: 30px;
+    text-align: center;
+    width: 424px;
 }
 .parces-content h4{
     padding: 11px 65px;
     background-color: #FDE5E9;
-    color: red;
-    text-align: center;
+    color: var(--color-primary);
+}
+.parces-content h3{
+    margin: 50px 0 30px 0;
+}
+.parces-content ul li{
+    color: #787878;
+    font-size: 16px;
+    line-height: 41px;
+}
+.parces-content ul li i{
+    margin-right: 10px;
+}
+
+.parces-content h2{
+    margin: 40px 0 50px 0;
+}
+.parces-content .nav-btn-signup{
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.parces-content .nav-btn-signup:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
+#parcese .container{
+    position: relative;
+}
+#parcese .vactor{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* costom rating parat */
+.rating{
+    width: 424px;
+    box-shadow: 0 15px 50px #0000001b;
+    border-radius: 30px;
+    padding: 41px 41px 25px 41px;
+}
+.rating-comment{
+    margin: 20px 0;
+    padding: 35px 54px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+.rating-comment p{
+    margin-top: 20px;
+    line-height: 26px;
+}
+.rating-end i{
+    color: #787878;
 }
