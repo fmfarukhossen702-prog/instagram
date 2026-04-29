@@ -10,6 +10,10 @@
 h1,h2,h3,h4 {
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+    color: #787878;
+}
 p {
     font-size: 16px;
     font-weight: 500;
@@ -256,4 +260,47 @@ li{
 }
 .accordion-button:not(.collapsed)::after {
     background-image: url(../image/Frame.png);
+}
+
+
+/* footer  */
+#footer{
+    padding: 150px 0;
+    background-color: #F4F4F4;
+}
+.footer-left{
+    width: 366px;
+}
+.footer-left i{
+    font-size: 32px;
+}
+.footer-content .p-left{
+    padding: 30px 0 0 0;
+}
+.footer-in ul{
+    margin-top: 42px;
+    line-height: 26px;
+}
+.footer-in ul li{
+    margin-top: 10px;
+}
+.footer-right p{
+    margin: 42px 0px 20px 0px;
+}
+.footer-from input{
+    padding: 15px 50px 15px 18px;
+    padding-left: 18px;
+    border-radius: 10px;
+}
+.footer-from {
+    position: relative;
+
+}
+
+.footer-from button{
+    padding: 15px 17px;
+    border-radius: 10px;
+    font-size: 16px;
+    position: absolute;
+    right: 65px;
 }
