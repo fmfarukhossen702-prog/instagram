@@ -150,7 +150,7 @@ li{
 /* pump insta  */
 #pump-insta{
     padding: 150px 0;
-    background-color: #DDDEDD;
+    background-color: #F4F4F4;
 }
 #pump-insta .insta-content{
     padding: 66px 50px;
@@ -228,4 +228,32 @@ li{
 }
 .rating-end i{
     color: #787878;
+}
+
+/* FAQ part  */
+.accordion-button:not(.collapsed) {
+    color: var(--color-primary);
+    background: transparent;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 #ffff;
+}
+.accordion-item {
+    border-radius: 20px !important;
+    margin-top: 20px;
+    border: 1px solid #E8E8E8 !important;
+}
+.accordion-header button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 38px 32px;
+}
+.accordion-body{
+    padding: 15px 56px 38px 32px;
+}
+.accordion-button::after {
+  background-image: url(../image/Vector\ \(1\).png);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/Frame.png);
 }
