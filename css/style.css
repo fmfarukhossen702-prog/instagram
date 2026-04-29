@@ -117,11 +117,6 @@ li{
 
 /* video bg  */
 .video-bg{
-    background-image: url(../image/Rectangle\ 29\ \(1\).png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 260px 570px;
     border-radius: 30px;
 }
 .playbtn{
@@ -131,6 +126,10 @@ li{
     background-color: rgba(255, 0, 0, 0.215);
     animation: animate-pulse 3s linear infinite;
     cursor: progress;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 @keyframes animate-pulse{
     0%{
