@@ -7,12 +7,16 @@
 :root {
     --color-primary: #E90024;
 }
-h1,h2,h3,h4 {
+h2,h3,h4 {
     font-weight: 600;
 }
 a{
     text-decoration: none;
     color: #787878;
+}
+h1{
+    font-size: 65px;
+    font-weight: bold;
 }
 p {
     font-size: 16px;
@@ -51,7 +55,7 @@ li{
     font-weight: 500;
 }
 .navbar-nav {
-    gap: 60px;
+    gap: 0px 60px;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -86,7 +90,7 @@ li{
 }
 .instagram {
     color: var(--color-primary);
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .banar-left {

@@ -1,0 +1,303 @@
+@media (max-width: 576px) {
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .row{
+    gap: 20px;
+}
+.section-header{
+    width: 450px;
+    text-align: center;
+}
+
+    #banar-part img{
+        width: 100%;
+        margin-left: -30px;
+    }
+    .banar-left {
+    margin-top: 0px;
+}
+#banar-part {
+    margin-top: 0px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+nav .navbar-toggler{
+    margin-right: 100px !important;
+}
+.nav-btn-signup {
+    padding: 10px 25px;
+    font-size: 14px;
+
+}
+.m-tb-150{
+    margin:70px;
+}
+#cunter{
+    margin-left: 0%;
+}
+#cunter .text-center{
+   width: 400px;
+}
+.vactor-img{
+    display: none;
+}
+
+/* cunter part  */
+#cunter .text-center {
+    text-align: center !important;
+}
+.cunter {
+    padding: 45px 30px;
+}
+
+/* video bg  */
+.video-bg img {
+    width: 107%;
+    height: 268px;
+}
+.video-bg {
+    left: -57px;
+}
+.playbtn {
+    height: 100px;
+    width: 100px;
+}
+.video {
+    width: 450px !important;
+    margin-left: 59px;
+}
+.playbtn img{
+    height: 40px;
+    width: 35px;
+}
+
+/* pump insta  */
+#pump-insta {
+    padding: 20px 0;
+    margin-top: -20px;
+}
+.insta-content {
+    width: 450px !important;
+}
+/* parcese  */
+#parcese img{
+    display: none;
+}
+.parces-content {
+    width: 450px !important;
+}
+.rating {
+    width: 450px !important;
+    padding: 35px 25px;
+}
+
+/* FAQ  */
+#faq{
+    margin-left: -5px;
+}
+#faq .section-header {
+    margin-bottom: 10px;
+}
+.accordion-item{
+    width: 450px ;
+}
+
+.footer-from button {
+    right: 183px;
+}
+
+/* footer  */
+#footer {
+    padding: 30px 0;
+}
+.footer-left {
+    margin-bottom: 25px;
+}
+.footer-in ul {
+    margin-top: 20px;
+}
+.footer-in ul li {
+    margin-top: 5px;
+}
+footer img {
+    width: 123%;
+    height: 100px;
+}
+.footer-right p {
+    margin: 15px 0px 20px 0px;
+}
+.footer-right {
+    margin-top: -14px !important;
+}
+.footer-in {
+    margin-left: 0 !important;
+}
+.footer-from input {
+    width: 280px !important;
+}
+.footer-from button {
+    right: 70px !important;
+    top: 1px !important;
+}
+}
+
+
+
+
+@media (max-width: 992px) {
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .video-bg img{
+        width: 100%;
+    }
+    .banar-left {
+    margin-top: 0;
+}
+#banar-part img{
+    width: 100%;
+    margin-left: -20px;
+}
+
+#cunter .cunter{
+    padding: 30px 0;
+}
+#cunter .m-tb-150{
+    margin: 30px 0;
+}
+#cunter h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* insta work  */
+
+.insta-content {
+    width: 342px;
+}
+.insta-last-md-12{
+    margin-top: 20px;
+    width: 100%;
+    padding: 35px 98px;
+    height: 333px;
+}
+.m-tb-150{
+    margin: 70px 0;
+}
+#pump-insta {
+    padding: 60px 0;
+}
+#pump-insta .insta-content {
+    padding: 30px 35px;
+}
+.insta-content h3 {
+    padding: 40px 0 20px 0;
+}
+.pump-insta-content .insta-content-md-12{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 30px 20px 30px;height: 320px;
+}
+#parcese img{
+    display: none;
+}
+
+.parces-content {
+    padding: 40px 30px;
+    width: 345px;
+}
+.parces-content h3 {
+    margin: 35px 0 25px 0;
+}
+.parces-col-md-12{
+    margin-top: 20px;
+    width: 100%;
+}
+.parces-col-md-12 ul{
+    text-align: center !important;
+}
+.parces-content h4 {
+    width: 236px;
+    margin: auto;
+}
+
+.rating {
+    width: 350px;
+    padding: 35px 25px;
+}
+.rating-col-md-12{
+    margin-top: 20px;
+    width: 100%;
+}
+.rating-end-col-12{
+    padding: 0 40px;
+}
+
+
+#faq h2 button{
+    font-size: 16px !important;
+}
+#faq .accordion-body{
+    font-size: 13px;
+}
+.accordion-header button {
+    padding:20px;
+}
+
+#footer {
+    padding: 65px 0;
+}
+.footer-content{
+    width: 350px;
+}
+.footer-in ul {
+     margin: 25px 0;
+}
+.footer-in ul li {
+     margin-top: 2px;
+}
+.footer-in ul li a{
+    font-size: 13px;
+}
+.footer-in{
+    margin-left: 30px;
+}
+.footer-right{
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-right p{
+    margin: 15px 0;
+}
+.footer-from input {
+    width: 500px;
+}
+
+}
