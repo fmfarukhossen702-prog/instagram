@@ -33,9 +33,9 @@ h1 {
     font-size: 35px !important;
     font-weight: bold;
 }
-/* nav .navbar-toggler{
+nav .navbar-toggler{
     margin-right: 50px !important;
-} */
+}
 .nav-btn-signup {
     padding: 10px 25px;
     font-size: 14px;
