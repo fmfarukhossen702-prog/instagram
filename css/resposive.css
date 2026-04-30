@@ -61,6 +61,9 @@ nav .navbar-toggler{
 .cunter {
     padding: 45px 30px;
 }
+#pump-insta{
+    background-color: white !important;
+}
 
 /* video bg  */
 .video-bg img {
