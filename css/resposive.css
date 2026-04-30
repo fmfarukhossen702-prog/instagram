@@ -1,15 +1,15 @@
 @media (max-width: 576px) {
     h2{
-        font-size: 30px;
+        font-size: 30px !important;
     }
     h3{
-        font-size: 25px;
+        font-size: 25px !important;
     }
     h4{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     p{
-        font-size: 13px;
+        font-size: 13px !important;
     }
     .row{
     gap: 20px;
@@ -21,7 +21,7 @@
 
     #banar-part img{
         width: 100%;
-        margin-left: -30px;
+        /* margin-left: -30px; */
     }
     .banar-left {
     margin-top: 0px;
@@ -30,7 +30,7 @@
     margin-top: 0px;
 }
 h1 {
-    font-size: 35px;
+    font-size: 35px !important;
     font-weight: bold;
 }
 nav .navbar-toggler{
@@ -78,12 +78,15 @@ nav .navbar-toggler{
     width: 100px;
 }
 .video {
-    width: 450px !important;
+    width: 100% !important;
     margin-left: 59px;
 }
 .playbtn img{
     height: 40px;
     width: 35px;
+}
+.cunter .text-center{
+    text-align: center !important;
 }
 
 /* pump insta  */
@@ -91,8 +94,14 @@ nav .navbar-toggler{
     padding: 20px 0;
     margin-top: -20px;
 }
+#parcese .text-start {
+    text-align: center !important;
+}
 .insta-content {
     width: 450px !important;
+}
+.insta-last-md-12 p{
+    padding-bottom: 20px;
 }
 /* parcese  */
 #parcese img{
@@ -124,25 +133,30 @@ nav .navbar-toggler{
 /* footer  */
 #footer {
     padding: 30px 0;
+    background-color: transparent !important;
 }
 .footer-left {
     margin-bottom: 25px;
 }
 .footer-in ul {
-    margin-top: 20px;
+    margin-top: 10px !important;
+    display: flex;
+    gap: 40px;
 }
+
 .footer-in ul li {
-    margin-top: 5px;
+    margin-top: 5px ;
 }
 footer img {
-    width: 123%;
+    margin-left: -10px;
+    width: 100%;
     height: 100px;
 }
 .footer-right p {
     margin: 15px 0px 20px 0px;
 }
 .footer-right {
-    margin-top: -14px !important;
+    margin-top: -5px !important;
 }
 .footer-in {
     margin-left: 0 !important;
