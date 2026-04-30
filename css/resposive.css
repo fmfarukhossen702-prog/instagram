@@ -132,16 +132,22 @@ nav .navbar-toggler{
 
 /* footer  */
 #footer {
-    padding: 30px 0;
+    padding: 20px 0 !important;
     background-color: transparent !important;
 }
 .footer-left {
     margin-bottom: 25px;
+    width: 100% !important;
 }
 .footer-in ul {
     margin-top: 10px !important;
     display: flex;
     gap: 40px;
+}
+footer .row>* {
+
+    padding-right: calc(var(--bs-gutter-x) * .0);
+
 }
 
 .footer-in ul li {
@@ -165,7 +171,7 @@ footer img {
     width: 280px !important;
 }
 .footer-from button {
-    right: 70px !important;
+    right: 25px !important;
     top: 1px !important;
 }
 }
